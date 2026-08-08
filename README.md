@@ -1,28 +1,16 @@
-ocd-patient-project/
-│
-├── README.md
-├── requirements.txt
-├── ocd_patient_project.ipynb
-├── data/
-│   └── sample_dataset.csv (or a small anonymized sample)
-├── images/
-│   ├── correlation_heatmap.png
-│   ├── distribution_plot.png
-│   └── confusion_matrix.png
-└── .gitignore
 # OCD Patient Data Analysis and Prediction
 
 ## Overview
 
-This project analyzes an Obsessive-Compulsive Disorder (OCD) patient dataset and applies machine learning techniques to predict OCD-related outcomes based on demographic and clinical features.
+This project analyzes an Obsessive-Compulsive Disorder (OCD) patient dataset and applies machine learning techniques to explore demographic and clinical patterns related to OCD symptoms.
 
 ## Objectives
 
 * Clean and preprocess patient data
 * Perform exploratory data analysis (EDA)
 * Visualize feature relationships
-* Train and evaluate classification models
-* Compare model performance using standard metrics
+* Analyze demographic and clinical trends
+* Generate insights from OCD patient records
 
 ## Technologies Used
 
@@ -32,32 +20,37 @@ This project analyzes an Obsessive-Compulsive Disorder (OCD) patient dataset and
 * NumPy
 * Matplotlib
 * Seaborn
-* Scikit-learn
 
 ## Workflow
 
 1. Data loading
-2. Data cleaning
-3. Exploratory Data Analysis
-4. Feature preprocessing
-5. Train-test split
-6. Model training
-7. Model evaluation
+2. Data cleaning and preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Visualization of demographic and clinical features
+5. Interpretation of findings
 
-## Results
+## Sample Visualizations
 
-The project compares multiple classification models and evaluates them using:
+### Age Distribution
 
-* Accuracy
-* Precision
-* Recall
-* F1-score
-* Confusion Matrix
+![Age Distribution](images/age_distribution.png)
+
+### Medication Distribution
+
+![Medication Distribution](images/medication_distribution.png)
+
+### Y-BOCS Obsessions vs Compulsions
+
+![Y-BOCS Scatter Plot](images/ybocs_scatter_plot.png)
+
+### Gender vs Average Y-BOCS Obsessions
+
+![Gender vs Y-BOCS Obsessions](images/gender_vs_ybocs_obsessions.png)
 
 ## Repository Structure
 
-* `ocd_patient_project.ipynb` – Complete notebook
-* `images/` – Visualizations used in the project
-* `requirements.txt` – Python dependencies
+* `ocd patient project.ipynb` – Jupyter notebook containing the complete analysis
+* `images/` – Visualizations generated during the analysis
+* `README.md` – Project documentation
 
 
